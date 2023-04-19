@@ -83,8 +83,8 @@
                 android:gravity="center|center_vertical"
                 android:padding="1dp"
                 android:src="@drawable/baseline_wb_sunny_24"
-                android:layout_width="70dp"
-                android:layout_height="70dp"/>
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -108,9 +108,17 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <ImageView
+
+                    android:layout_gravity="center|center_vertical"
+                    android:gravity="center|center_vertical"
+                    android:src="@drawable/wind"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"/>
+
                 <TextView
-                    android:drawableStart="@drawable/baseline_wb_sunny_24"
-                    android:layout_margin="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="1dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -120,7 +128,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
                 <TextView
-                    android:drawableStart="@drawable/baseline_wb_sunny_24"
+                    android:drawableStart="@drawable/baseline_water_drop_24"
                     android:layout_margin="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -155,7 +163,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="8 mph"
+                        android:text="Condition"
                         android:textColor="#ffff"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -189,7 +197,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="8 mph"
+                        android:text="Condition"
                         android:textColor="#ffff"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -225,7 +233,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="8 mph"
+                        android:text="Condition"
                         android:textColor="#ffff"
                         android:textSize="20sp"
                         android:textStyle="bold" />
