@@ -44,6 +44,7 @@
 
 
                     <ImageView
+                        android:id="@+id/searchbutton"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:padding="1dp"
@@ -249,15 +250,22 @@
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <SearchView
-
+            <EditText
+                android:visibility="gone"
+                android:drawablePadding="15dp"
+                android:hint="Search Location"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:drawableStart="@drawable/baseline_search_2"
+                android:background="#ffff"
+                android:layout_margin="10dp"
                 android:id="@+id/searchView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
                 />
             <ListView
+                android:visibility="gone"
                 android:layout_marginTop="55dp"
-                android:background="#ffff"
                 android:id="@+id/listView"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
